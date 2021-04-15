@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), Activity2.class);
         intent.putExtra("nombre", editText.getText().toString());
         startActivity(intent);
+        //holaa
     }
 
 
